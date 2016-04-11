@@ -1,33 +1,32 @@
 
 // Color Schemes
 // yellow/orange scheme
-$clr-orange1: #ff2800;
-$clr-orange2: #ff8300;
- $clr-yellow: #ffb400;
-  $clr-dark1: #0a0a09;
-  $clr-gray1: #454342;
-  $clr-gray2: #827e79;
+$clr-01-orange1: #ff2800;
+$clr-01-orange2: #ff8300;
+ $clr-01-yellow: #ffb400;
+  $clr-01-dark1: #0a0a09;
+  $clr-01-gray1: #454342;
+  $clr-01-gray2: #827e79;
+
+// https://coolors.co/app/0b0a07-bbcea8-8ed081-f0ec57-b4d2ba
+  $clr-02-dark: #0b0a07;
+$clr-02-muted1: #bbcea8;
+$clr-02-muted2: #b4d2ba;
+ $clr-02-green: #8ed081;
+$clr-02-yellow: #f0ec57;
+
+// https://coolors.co/app/011627-fdfffc-2ec4b6-e71d36-ff9f1c
+$clr-03-dark: #011627;
+$clr-03-light: #fdfffc;
+$clr-03-blue: #2ec4b6;
+$clr-03-red: #e71d36;
+$clr-03-orange: #ff9f1c;
+
 
 // Site Color Definitions
-$color-dark: $clr-dark1;
-$color-dark-alt: $clr-gray1;
-$color-light: lighten($clr-gray2, 45%);
-$color-light-alt: $clr-gray2;
-$color-highlight: $clr-orange1;
-$color-highlight-alt: $clr-orange2;
-
-/*
-$color-green: #96c950;
-$color-teal: #0B9375;
-$color-contrast: #E46211;
-$color-light-green: mix(white, $color-green, 50%);
-$color-light-teal: mix(white, $color-teal, 50%);
-$color-dark-green: mix(black, $color-green, 30%);
-$color-dark-teal: mix(black, $color-teal, 30%);
-$color-txt: #3E3F3E;
-$color-txt-light: #B1B3B2;
-$color-light: #F3F6F5;
-$color-light-grey: #E2E2E3;
-$color-light-contrast: scale-color($color-contrast, $lightness: 25%);
-$color-contrast-mix: mix($color-green, $color-contrast, 25%);
-*/
+$color-dark: $clr-03-dark;
+$color-dark-alt: $clr-01-gray1;
+$color-light: $clr-03-light;
+$color-light-alt: $clr-01-gray2;
+$color-highlight: $clr-03-orange;
+$color-highlight-alt: $clr-03-red;
