@@ -2,7 +2,6 @@
 $nav-transition: all 0.3s;
 
 .nav {
-    background-color: transparent;
     background-color: $color-dark;
     //border-bottom: 1px solid #fff;
     font-family: $heading-stack;
@@ -33,19 +32,17 @@ $nav-transition: all 0.3s;
 .nav__item {
 
     a {
-        //color: $color-txt;
+        color: $color-highlight;
         font-size: 0.85em;
         font-weight: bold;
         letter-spacing: 0.08em;
-        padding: 1.5em 1.0em;
+        padding: 0.75em 1.0em;
         text-decoration: none;
         transition: $nav-transition;
     }
 
     a:hover {
-        //background-color: $color-highlight;
-        //color: $color-light;
-        //text-shadow: 1px 1px 1px darken($color-dark-green, 5%);
+        color: $color-highlight-alt;
         transition: $nav-transition;
     }
 
@@ -56,10 +53,9 @@ $nav-transition: all 0.3s;
 }
 
 .nav__logo {
-    border: 1px solid #f00;
     display: inline-block;
+
     img {
-        //height: $logo-height;
         float: left;
         margin: 0.5em;
     }

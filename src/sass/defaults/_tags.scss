@@ -8,9 +8,9 @@ body {
 }
 
 a {
-    color: $color-highlight;
+    color: $color-highlight-alt;
 
     &:hover {
-        color: $color-highlight-alt;
+        color: darken($color-highlight-alt, 10%);
     }
 }
