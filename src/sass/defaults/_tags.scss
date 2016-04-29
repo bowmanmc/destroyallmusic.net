@@ -1,15 +1,14 @@
 body, html {
-  height: 100%;
+    height: 100%;
 }
 
 body {
-  background-color: $color-light;
-  color: $color-dark;
+    background-color: $color-light;
+    color: $color-dark;
 }
 
 a {
     color: $color-highlight-alt;
-
     &:hover {
         color: darken($color-highlight-alt, 10%);
     }

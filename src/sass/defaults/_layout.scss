@@ -1,0 +1,26 @@
+
+body {
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.nav {
+    border: 1px solid #0f0;
+    display: inline;
+    height: 100%;
+    width: 56px;
+}
+
+.links {
+    border: 1px solid #0ff;
+    //@include span-columns(4);
+    width: 256px;
+}
+
+.content {
+    border: 1px solid #00f;
+    flex-grow: 1;
+}

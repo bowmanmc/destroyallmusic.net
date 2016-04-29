@@ -3,12 +3,9 @@ $nav-transition: all 0.3s;
 
 .nav {
     background-color: $color-dark;
+    border: 1px solid #0f0;
     //border-bottom: 1px solid #fff;
     font-family: $heading-stack;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
 }
 
 .nav__items {
