@@ -6,13 +6,14 @@
 @import 'neat/neat';
 
 // Defaults, Components, then Pages
-@import 'defaults/colors',
+@import 'defaults/animation',
+        'defaults/colors',
         'defaults/media',
         'defaults/tags',
         'defaults/typography',
         'defaults/layout',
         'components/footer',
+        'components/links',
         'components/navigation',
-        'components/post',
-        'pages/defaults'
+        'components/post'
 ;

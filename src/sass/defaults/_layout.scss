@@ -8,19 +8,15 @@ body {
 }
 
 .nav {
-    border: 1px solid #0f0;
-    display: inline;
     height: 100%;
     width: 56px;
 }
 
 .links {
-    border: 1px solid #0ff;
-    //@include span-columns(4);
+    overflow: scroll;
     width: 256px;
 }
 
 .content {
-    border: 1px solid #00f;
     flex-grow: 1;
 }
